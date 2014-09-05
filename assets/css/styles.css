@@ -2,10 +2,10 @@
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;    
 }
 body {
 	background-color: rgb(222, 212, 185);
-	font-family: 'Raleway', sans-serif;
 	color: rgb(70, 67, 58);
 }
 h2 {
