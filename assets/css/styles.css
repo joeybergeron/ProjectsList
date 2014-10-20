@@ -64,6 +64,13 @@ a:hover {
 	background: rgb(206, 83, 77);
 	margin-bottom: 60px;
 }
+.fullbox img {
+	width: 100%;
+	margin: 0;
+}
+.fullbox {
+	line-height: 0;
+}
 .box * img {
 	display: inline-block;
 	max-width: 100%;
@@ -84,6 +91,7 @@ a:hover {
   height: auto !important;
 }
 @media (max-width: 3000px) {
+  /* Full Size */
   .box {
   -moz-column-count:    2;
   -webkit-column-count: 2;
@@ -91,6 +99,7 @@ a:hover {
   }
 }
 @media (max-width: 800px) {
+  /* Tablet and Below */
   .box {
   -moz-column-count:    1;
   -webkit-column-count: 1;
