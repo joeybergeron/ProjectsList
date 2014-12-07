@@ -6,3 +6,4 @@ ProjectsList
 
 A single page portfolio linking to all of my GitHub Projects in a simple way. Links either go to the finished viewable site or to the project files for inspection. 
 
+[I'm an inline-style link](http://joeybergeron.github.io/ProjectsList/index.html)
